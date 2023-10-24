@@ -1,49 +1,48 @@
 
-# Hey, Welcome to Repo of Public Health Record Management System! 👋
+# Bienvenue dans notre application , Health management System👋
 
 
-## Run Locally
+## Installation
 
-Clone the project
+Cloner le projet
 
 ```bash
   git clone https://github.com/PICT-PBL-6-2021-22/public_health_record_management_system
 ```
 
-Go to the project directory
+Aller dans le projet
 
 ```bash
   cd public_health_record_management_system
 ```
 
-Install dependencies in server
+Installer es dependances
 
 ```bash
   npm install
 ```
-Go to the client folder
+Aller dans le dossier client
 
 ```bash
   cd client
 ```
-Install dependencies in client
+Installer les dependances
 
 ```bash
   npm install
 ```
 
-Start the client react project
+Démarrez le projet
 
 ```bash
   npm run start
 ```
 
-Come back to server
-
+Revenez dans le dossier serveur
 ```bash
   cd ..
 ```
-Start Server using node or nodemon
+Lancer le serveurs
 
 ```bash
   node app.js 
@@ -51,20 +50,13 @@ Start Server using node or nodemon
 ```
 
 
-Please Use Tailwind CSS for styling components
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
+Pour lancer le projet, il faut avoir ces 2 dependances dans un fichier .env
 
 `DATABASE`
 
 `SECRET_KEY`
 
-DATABASE contains the dbURI of MongoDB connections and SECRET_KEY contains Secret key for signing and verifying Jason Web Tokens (JWT)
+DATABASE est pour la connexion à MonogoDB et SECRET_KEY contient les clés secrets pour une authentification JWT
 
 
-## Authors
-
-- [@rohitvpatil0810](https://www.github.com/rohitvpaitl0810)
-- [@jayesh1602](https://www.github.com/jayesh1602)
 
